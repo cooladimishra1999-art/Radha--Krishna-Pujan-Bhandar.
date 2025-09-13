@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Radha Krishna Pujan Bhandar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #fff8e1;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #ff6f00;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            position: relative;
+        }
+        header img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 10px;
+        }
+        header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #006400;
+            margin-top: 30px;
+            border-bottom: 2px solid #006400;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #0033cc;
+            margin-top: 25px;
+        }
+        p {
+            font-size: 1rem;
+        }
+        button {
+            background-color: #28a745;
+            border: none;
+            color: white;
+            padding: 12px 25px;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #ffcc80;
+        }
+        /* Gallery Styles */
+        .gallery {
+            margin-top: 30px;
+        }
+        .gallery h2 {
+            margin-bottom: 15px;
+        }
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .gallery-item {
+            width: 150px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            border-radius: 8px;
+            overflow: hidden;
+            background: white;
+            text-align: center;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .gallery-item p {
+            margin: 8px 0;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        footer {
+            background-color: #ffecb3;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            button {
+                width: 100%;
+            }
+            .gallery-item {
+                width: 45%;
+                height: auto;
+            }
+            .gallery-item img {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="40165a39-1cf8-4f8d-87dc-29feccf40e31.png" alt="Radha Krishna Pujan Bhandar" />
+    <h1>RADHA KRISHNA PUJAN BHANDAR</h1>
+</header>
+
+<main>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Radha Krishna Pujan Bhandar, Manju Sahu Genral Store, कोयला नगर, स्वर्ण जयंती विहार, दहली सुजानपुर, कानपुर में स्थित है। 
+            हम शुद्ध और विश्वसनीय पूजा सामग्री प्रदान करते हैं। श्रद्धा और विश्वास के साथ आपकी हर पूजा की सेवा करना हमारा उद्देश्य है।
+        </p>
+    </section>
+
+    <section id="order">
+        <h3>Order Now</h3>
+        <button onclick="window.open('https://wa.me/918090077768', '_blank')">WhatsApp पर Order करें</button>
+    </section>
+
+    <section id="products">
+        <h2>पूजा सामग्री की लिस्ट और दाम</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>सामग्री</th>
+                    <th>मूल्य (रुपये)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>चन्दन पाउडर (50 ग्राम)</td><td>50</td></tr>
+                <tr><td>हल्दी पाउडर (100 ग्राम)</td><td>30</td></tr>
+                <tr><td>कुमकुम (50 ग्राम)</td><td>25</td></tr>
+                <tr><td>अगरबत्ती (1 डिब्बा)</td><td>40</td></tr>
+                <tr><td>दीया (मिट्टी के, 10 पीस)</td><td>60</td></tr>
+                <tr><td>गुलाब जल (100 ml)</td><td>80</td></tr>
+                <tr><td>खाद्य रंग (लाल)</td><td>20</td></tr>
+                <tr><td>धूप बत्ती (10 पीस)</td><td>50</td></tr>
+                <tr><td>श्रीफल (1 पीस)</td><td>100</td></tr>
+                <tr><td>सिंदूर (50 ग्राम)</td><td>35</td></tr>
+                <!-- आप और आइटम्स जोड़ सकते हैं -->
+            </tbody>
+        </table>
+    </section>
+
+    <section class="gallery">
+        <h2>गैलरी - पूजा सामग्री के फोटो</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1605276371106-4329f0c91144?auto=format&fit=crop&w=400&q=80" alt="चन्दन पाउडर" />
+                <p>चन्दन पाउडर</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1609334182438-b3e4982b0a66?auto=format&fit=crop&w=400&q=80" alt="हल्दी पाउडर" />
+                <p>हल्दी पाउडर</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1571781948910-5a6c54ca5f04?auto=format&fit=crop&w=400&q=80" alt="अगरबत्ती" />
+                <p>अगरबत्ती</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1573704140497-b942db073fb2?auto=format&fit=crop&w=400&q=80" alt="दीया" />
+                <p>दीया</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1516131206001-64547ee4e213?auto=format&fit=crop&w=400&q=80" alt="गुलाब जल" />
+                <p>गुलाब जल</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1513883049090-d0b7439799bf?auto=format&fit=crop&w=400&q=80" alt="सिंदूर" />
+                <p>सिंदूर</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    © 2025 Radha Krishna Pujan Bhandar | Manju Sahu Genral Store, कोयला नगर, स्वर्ण जयंती विहार, दहली सुजानपुर, कानपुर | All Rights Reserved
+</footer>
+
+</body>
+</html>
+--
